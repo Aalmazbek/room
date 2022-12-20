@@ -1,0 +1,1218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+header{
+    height: 15vh;
+    font-size: 14px;
+}
+
+
+header .container{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header .top{
+    width: 100%;
+    height: 30%;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 10%;
+}
+
+header .top .menu{
+    width: 50%;
+    text-align: end;
+}
+
+header .top .menu a{
+    margin-left: 5%;
+    color: #AAAAAA;
+    font-size: 13px;
+}
+
+header .top .menu img{
+    user-select: none;
+}
+
+
+header .bottom{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header .bottom .logo{
+    height: 70%;
+}
+
+
+header .bottom .menu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header .bottom .menu2{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header .bottom .menu2 + a{
+    display: none;
+}
+
+.burger-menu{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.main{
+    height: 170vh;
+    margin: 1vh 0;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #E0E0E0;
+}
+
+.main .container{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+.main .container img{
+    width: 100%;
+}
+
+.main .container .main-text{
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .container .main-text h1{
+    width: 35%;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.main .container .main-text p{
+    width: 55%;
+    font-size: 24px;
+    color: #AAAAAA;
+    line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+.catalog{
+    height: 160vh;
+    display: flex;
+    align-items: center;
+}
+
+.catalog .container{
+    height: fit-content;
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.catalog .container .product{
+    width: 49%;
+    height: 70vh;
+}
+
+.catalog .container .product img{
+    width: 100%;
+}
+
+.catalog .container .product h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 1vh;
+}
+
+
+
+
+
+
+
+
+
+.brands{
+    height: 100vh;
+}
+
+.brands .container{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.brands .container h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.brands .container p{
+    font-size: 24px;
+    margin: 2% 0;
+}
+
+.brands .container .brand-logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.brands .container .brand-logos img{
+    width: 14.3%;
+    height: 20%;
+    margin: 1% 0;
+}
+
+
+
+
+
+
+
+
+
+
+.benefits{
+    height: 230vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits .slider{
+    width: 100%;
+    height: 95vh;
+}
+
+.benefits .slider img{
+    height: 100%;
+    margin: 0 6%;
+}
+
+.benefits > img{
+    margin: 2% 0;
+    width: 100%;
+}
+
+
+
+
+
+.benefits .container{
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefits .container h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.benefits .container p{
+    font-size: 14px;
+    color: #46856E;
+    align-self: flex-start;
+    margin: 2% 0;
+}
+
+.benefits .container .benefit-cards{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.benefits .container .benefit-cards .card{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.benefits .container .benefit-cards .card img{
+    margin-left: 20%;
+    width: 40%;
+}
+
+.benefits .container .benefit-cards .card h2{
+    margin: 5% 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.benefits .container .benefit-cards .card p{
+    width: 87%;
+    color: #AAAAAA;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+.reviews{
+    height: 56vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh 0;
+}
+
+.reviews .container{
+    height: 100%;
+    width: 95%;
+    position: relative;
+}
+
+.reviews .container img{
+    width: 100%;
+    position: absolute;
+}
+
+.reviews .container img + img{
+    width: 90%;
+    height: 70%;
+    left: 5%;
+    top: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+.we-blablabla{
+    height: 200vw;
+    margin-top: 40vh;
+}
+
+.we-blablabla .container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.we-blablabla .container h1{
+    color: #AAAAAA;
+}
+
+.we-blablabla .container h2{
+    margin: 2% 0;
+}
+
+.we-blablabla .container h1, h2{
+    width: 70%;
+    font-size: 54px;
+}
+
+.we-blablabla .container span{
+    white-space: pre;
+}
+
+.we-blablabla .container .banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3vw 0;
+}
+
+.we-blablabla .container .banner img{
+    width: 55%;
+}
+
+.we-blablabla .container .banner .banner-text{
+    width: 30%;
+    margin-right: 6%;
+}
+
+.we-blablabla .container .banner .banner-text h2{
+    font-size: 36px;
+    margin-bottom: 1vw;
+}
+
+.we-blablabla .container .banner .banner-text p{
+    font-size: 19px;
+    line-height: 150%;
+    color: #AAAAAA;
+}
+
+.we-blablabla .container .banner:nth-of-type(2) .banner-text{
+    width: 25%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+.slider2{
+    margin: 20vh 0;
+}
+
+.slider2 img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.free-trial{
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.free-trial .container{
+    height: 65%;
+    width: 80%;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.free-trial .container h1{
+    font-size: 55px;
+}
+
+.free-trial .container .cards{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3vw 0;
+}
+
+.free-trial .container .cards .card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.free-trial .container .cards .card img{
+    margin-bottom: 15%;
+    width: 77px;
+}
+
+.free-trial .container a{
+    background-color: #46856E;
+    color: white;
+    padding: 21px 34px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 2% 0;
+}
+
+.free-trial .container > p{
+    font-size: 15px;
+    color: #AAAAAA;
+    margin-bottom: -3%;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 43vw;
+    background-color: #2B2B2B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{
+    color: white;
+}
+
+footer .container{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container .logo{
+    height: 100%;
+    width: 18%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+footer .container .logo img{
+    fill: white;
+    width: 100px;
+}
+
+footer .container .links{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    margin-left: 3%;
+}
+
+footer .container .links > div{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .container .links > div h2{
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+footer .container .links > div a{
+    font-size: 15px;
+    margin: 1% 0;
+}
+
+footer .container .links > div p{
+    font-size: 15px;
+}
+
+
+
+
+
+footer .container .social-networks{
+    width: 10%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+
+footer .container .social-networks h2{
+    width: 100%;
+    font-size: 17px;
+}
+
+footer .container .social-networks img{
+    width: 24px;
+}
+
+
+
+
+
+footer .container .mailing-list{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .container .mailing-list h2{
+    font-size: 17px;
+    width: 80%;
+}
+
+footer .container .mailing-list h3{
+    font-size: 18px;
+    width: 80%;
+    margin: 5% 0;
+}
+
+footer .container .mailing-list .inputmail{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 4%;
+}
+
+footer .container .mailing-list .inputmail input{
+    width: 100%;
+    height: 60px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+}
+
+footer .container .mailing-list .inputmail input:focus{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+footer .container .mailing-list .inputmail a{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 4%;
+}
+
+
+
+
+
+footer .container .checkbox{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 10% 0;
+}
+
+
+footer .container .checkbox > div {
+	width: 32px;
+	height: 32px;
+	background: #AAAAAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #AAAAAA;
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+	position: relative;
+}
+
+footer .container .checkbox > div label {
+	cursor: pointer;
+	position: absolute;
+	width: 95%;
+	height: 95%;
+    background: #2B2B2B;
+
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#45484d',GradientType=0 );
+}
+
+#squaredOne{
+    opacity: 0;
+}
+
+footer .container .checkbox > div label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 85%;
+	height: 85%;
+	background: #AAAAAA;
+
+    top: 7%;
+    left: 8%;
+}
+
+footer .container .checkbox > div label:hover::after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+}
+
+footer .container .checkbox > div input[type=checkbox]:checked + label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+footer .container .checkbox p{
+    width: 89%;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+footer .container .mailing-list button{
+    padding: 10px 20px;
+    font-size: 17px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    transition: 0.2s;
+    align-self: flex-end;
+    margin-right: 5%;
+}
+
+footer .container .mailing-list button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+
+
+
+
+
+footer .container .return{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: -10%;
+}
+
+footer .container .return a{
+    width: 40px;
+    transition: 0.2s;
+    padding: 15px 0;
+}
+
+footer .container .return a img{
+    width: 30%;
+    margin-left: 35%;
+}
+
+footer .container .return a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+    html{
+        overflow-x: hidden;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+
+
+
+    header{
+        margin-top: 2vh;
+    }
+
+    header .top{
+        display: none;
+    }
+
+    header .container .menu, header .container .menu2{
+        display: none;
+    }
+
+    header .container .menu2 + a{
+        width: 50px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+    
+    
+    
+    .main{
+        margin-top: -2vh;
+        height: fit-content;
+    }
+
+    .main .container img{
+        margin-top: 4vh;
+    }
+
+    .main .container .main-text{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main .container .main-text h1{
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .main .container .main-text p{
+        width: 100%;
+        margin-top: 4vh;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .catalog{
+        height: fit-content;
+        margin: 10vh 0;
+    }
+
+    .catalog .container{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+
+    .catalog .container .product{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .catalog .container .product h2{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+
+
+
+    .brands{
+        height: fit-content;
+        margin-bottom: 10vh;
+    }
+
+    .brands .container h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .brands .container p{
+        font-size: 24px;
+        margin: 10% 0;
+    }
+
+    .brands .container .brand-logos img{
+        width: 32%;
+        height: 15%;
+        margin: 4% 0;
+    }
+
+
+
+
+
+
+
+
+
+
+    .benefits{
+        height: fit-content;
+    }
+
+    .benefits .slider{
+        height: fit-content;
+    }
+
+    .benefits .slider img{
+        width: 88%;
+        height: auto;
+    }
+
+    .benefits > img{
+        width: 250%;
+    }
+
+
+
+
+
+    .benefits .container{
+        text-align: center;
+        margin-top: 25%;
+    }
+
+    .benefits .container h1{
+        font-size: 35px;
+    }
+
+    .benefits .container p{
+        margin: 10% auto;
+    }
+
+    .benefits .container .benefit-cards{
+        flex-direction: column;
+    }
+
+    .benefits .container .benefit-cards .card{
+        width: 100%;
+        height: 95vw;
+    }
+
+    .benefits .container .benefit-cards .card h2, .benefits .container .benefit-cards .card p{
+        width: 100%;
+    }
+
+    .benefits .container .benefit-cards .card img{
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
+
+
+
+    .reviews{
+        height: 90vh;
+    }
+
+    .reviews .container{
+        overflow-x: hidden;
+    }
+
+    .reviews .container img{
+        height: 100%;
+        width: auto;
+    }
+
+    .reviews .container img + img{
+        height: 70%;
+        width: auto;
+        left: -10%;
+    }
+
+
+
+
+
+
+
+
+
+
+    .we-blablabla{
+        height: fit-content;
+        margin: 20vh 0;
+    }
+
+    .we-blablabla .container h1, .we-blablabla .container h2{
+        font-size: 30px;
+        text-align: center;
+        width: 90%;
+        margin: 2vh auto;
+    }
+
+    .we-blablabla .container .banner{
+        flex-direction: column;
+        margin: 5vh 0;
+    }
+
+    .we-blablabla .container .banner:nth-of-type(2){
+        flex-direction: column-reverse;
+    }
+
+    .we-blablabla .container .banner img{
+        width: 100%;
+    }
+
+    .we-blablabla .container .banner .banner-text{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin-top: 10%;
+    }
+
+    .we-blablabla .container .banner:nth-of-type(2) .banner-text{
+        width: 100%;
+        margin: 0;
+        margin-top: 10%;
+    }
+
+
+
+
+
+
+    
+
+
+
+    .slider2{
+        margin: 5vh 0;
+    }
+
+
+
+
+
+
+
+
+
+
+    .free-trial{
+        height: 50vh;
+    }
+
+    .free-trial .container{
+        height: 90%;
+    }
+
+    .free-trial .container h1{
+        font-size: 1.9em;
+    }
+
+    .free-trial .container .cards .card{
+        height: 120px;
+        text-align: center;
+    }
+
+    .free-trial .container .cards .card img{
+        width: 40px;
+    }
+
+
+
+
+
+
+
+    
+    
+    
+    footer{
+        height: fit-content;
+        margin-top: 5vh;
+    }
+
+    footer .container{
+        flex-direction: column;
+        height: 90%;
+        width: 90%;
+    }
+
+
+    
+    
+    footer .container .logo{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 5vh 0;
+    }
+    
+    footer .container .links{
+        width: 100%;
+        margin: 0;
+    }
+    
+    footer .container .links > div{
+        margin: 3vh 0;
+        text-align: center;
+        width: 50%;
+        line-height: 140%;
+    }
+
+    footer .container .links .support, footer .container .links .office{
+        text-align: center;
+    }
+
+    footer .container .links > div h2{
+        width: 100%;
+    }
+
+
+
+
+    footer .container .social-networks{
+        width: 45%;
+        align-self: flex-end;
+        margin-top: -30%;
+        text-align: center;
+    }
+
+    footer .container .social-networks h2{
+        margin-bottom: 3vh;
+    }
+
+
+
+
+
+    footer .container .mailing-list{
+        width: 100%;
+        margin: 10vh 0;
+    }
+
+
+
+
+
+    footer .container .return{
+        width: 100%;
+        height: 20vh;
+        align-items: center;
+        margin: 0;
+    }
+
+    footer .container .return a{
+        transform: rotate(90deg);
+        width: fit-content;
+        height: fit-content;
+    }
+
+    footer .container .return a img{
+        height: 200px;
+        width: 50px;
+        margin: 0;
+    }
+
+
+}
