@@ -130,6 +130,7 @@ header .bottom .menu2 + a{
     display: flex;
     align-items: center;
     border-top: 1px solid #E0E0E0;
+    overflow: hidden;
 }
 
 .main .container{
