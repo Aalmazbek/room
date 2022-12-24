@@ -270,8 +270,8 @@ header .bottom .menu2 + a{
 }
 
 .benefits .slider img{
-    width: 88%;
-    margin: 0 6%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .benefits > img{
